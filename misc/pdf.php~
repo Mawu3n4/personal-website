@@ -1,0 +1,5 @@
+<?php
+header('Content-disposition: attachment; filename=DibeZackaria-CV-FR.pdf');
+header('Content-type: application/pdf');
+readfile('files/DibeZackaria-CV-FR.pdf');
+?>
