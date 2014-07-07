@@ -16,18 +16,18 @@ label.panel-label {
   width: 100%;
   color: #bdc3c7;
   cursor: pointer;
-  background-color: #ecf0f1;
+  background-color: #e8e8e8;
   -webkit-transition-property: border-top, background-color, color;
   transition-property: border-top, background-color, color;
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
 }
 label.panel-label:hover {
-  color: #c0392b;
+  color: #333;
 }
 
 #panels {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 #panels .container {
   margin: 0 auto;
@@ -184,9 +184,9 @@ label.panel-label:hover {
     opacity: 1;
   }
   #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    background-color: #c0392b;
+    background-color: #f5f5f5;
+    color: #666;
+    background-color: #333;
     color: white;
   }
 
@@ -195,9 +195,9 @@ label.panel-label:hover {
     opacity: 1;
   }
   #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    background-color: #c0392b;
+    background-color: #f5f5f5;
+    color: #666;
+    background-color: #333;
     color: white;
   }
 
@@ -206,9 +206,9 @@ label.panel-label:hover {
     opacity: 1;
   }
   #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    background-color: #c0392b;
+    background-color: #f5f5f5;
+    color: #666;
+    background-color: #333;
     color: white;
   }
 
@@ -217,9 +217,9 @@ label.panel-label:hover {
     opacity: 1;
   }
   #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    background-color: #c0392b;
+    background-color: #f5f5f5;
+    color: #666;
+    background-color: #333;
     color: white;
   }
 
@@ -228,9 +228,9 @@ label.panel-label:hover {
     opacity: 1;
   }
   #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    background-color: #c0392b;
+    background-color: #f5f5f5;
+    color: #666;
+    background-color: #333;
     color: white;
   }
 
@@ -257,9 +257,9 @@ label.panel-label:hover {
     border-left: 1px solid #dfdfdf;
   }
   #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    border-top: 6px solid #c0392b;
+    background-color: #f5f5f5;
+    color: #333;
+    border-top: 6px solid #333;
     padding-top: 26px;
   }
 
@@ -278,9 +278,9 @@ label.panel-label:hover {
     border-left: 1px solid #dfdfdf;
   }
   #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    border-top: 6px solid #c0392b;
+    background-color: #f5f5f5;
+    color: #333;
+    border-top: 6px solid #333;
     padding-top: 26px;
   }
 
@@ -299,9 +299,9 @@ label.panel-label:hover {
     border-left: 1px solid #dfdfdf;
   }
   #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    border-top: 6px solid #c0392b;
+    background-color: #f5f5f5;
+    color: #333;
+    border-top: 6px solid #333;
     padding-top: 26px;
   }
 
@@ -320,9 +320,9 @@ label.panel-label:hover {
     border-left: 1px solid #dfdfdf;
   }
   #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    border-top: 6px solid #c0392b;
+    background-color: #f5f5f5;
+    color: #333;
+    border-top: 6px solid #333;
     padding-top: 26px;
   }
 
@@ -341,9 +341,9 @@ label.panel-label:hover {
     border-left: 1px solid #dfdfdf;
   }
   #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label {
-    background-color: white;
-    color: #c0392b;
-    border-top: 6px solid #c0392b;
+    background-color: #f5f5f5;
+    color: #333;
+    border-top: 6px solid #333;
     padding-top: 26px;
   }
 
@@ -374,7 +374,7 @@ label.panel-label:hover {
     border-left: 1px solid #dfdfdf;
   }
   ul#tabs-list li label.panel-label {
-    border-top: 0px solid #c0392b;
+    border-top: 0px solid #666;
     padding: 24px 0;
   }
   ul#tabs-list li label.panel-label:hover {
@@ -439,7 +439,7 @@ label.panel-label:hover {
 }
 
 body {
-  background: #e74c3c;
+  background: white;
   color: #444444;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -448,7 +448,7 @@ body {
   width: 90%;
   margin: 0 auto;
   padding: 48px 24px;
-  color: white;
+  color: #990003;
 }
 #introduction h1 {
   font-weight: 300;
@@ -458,7 +458,7 @@ body {
 main h1 {
   margin-top: 0;
   font-weight: 300;
-  color: #c0392b;
+  color: #666;
 }
 main p {
   line-height: 1.8;
@@ -469,7 +469,7 @@ main hr {
 }
 
 label.demo-label {
-  background-color: #c0392b;
+  background-color: #666;
   color: white;
   padding: 4px 8px;
   border-radius: 2px;
@@ -488,7 +488,7 @@ label.demo-label:hover {
   display: none;
 }
 #demo-child-toggle:checked ~ #demo-parent #demo-child {
-  color: #c0392b;
+  color: #666;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -499,7 +499,7 @@ label.demo-label:hover {
 
 code,
 pre {
-  color: #c0392b;
+  color: #666;
   font-family: Inconsolata, "Andale Mono", Andale, monowidth;
   background-color: #ecf0f1;
   border: 1px solid #dfdfdf;
