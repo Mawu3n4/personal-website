@@ -29,9 +29,10 @@ label.panel-label:hover {
 #panels {
     background-color: #f5f5f5;
 }
-#panels .container {
+.container {
     margin: 0 auto;
     width: 90%;
+    max-width:920px;
 }
 #panels section header label.panel-label {
     padding: 12px 24px;
