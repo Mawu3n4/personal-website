@@ -461,7 +461,19 @@ body {
     color: #990003;
 }
 
+#introduction h1.heading {
+    font-family: Georgia;
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
 #introduction h2 {
+    font-size: 140%;
+    letter-spacing: 1px;
+    margin-top: 0;
     font-weight: 300;
     color: #333;
 }
