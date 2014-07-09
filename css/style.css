@@ -466,18 +466,32 @@ body {
     color: #333;
 }
 
-header {
-    margin-botton: 20px;
-}
-
-main h1 {
-    margin-top: 0;
-    font-weight: 300;
+main {
     color: #666;
 }
-main p {
-    line-height: 1.8;
+
+main h2 {
+    font-size: 122%;
+    font-weight: 300;
+    line-height: 0;
+    color: #990003;
 }
+
+.heading {
+    margin-top: 0;
+    font-size: 145%;
+    padding: 1% 0 0 0;
+}
+
+.heading.first {
+    padding: 0;
+}
+
+main p {
+    line-height: 2;
+    margin-bottom: auto;
+}
+
 main hr {
     margin: 12px 0;
     border-top: 1px solid #dfdfdf;
@@ -539,6 +553,10 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+a.nodeco:link {
+    text-decoration:none;
 }
 
 .button {
