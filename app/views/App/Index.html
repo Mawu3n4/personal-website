@@ -1,21 +1,5 @@
-<html>
-  <head>
-    <link rel="icon"
-	  type="image.png"
-	  href="img/facivon_glider.png">
-
-    <title>Dibe Zackaria | IT Student, Computer science | contact@zackdibe.com</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-
-    <link rel="stylesheet" type="text/css" href="css/reset-fonts-grids.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
-    <script src="./lib/jquery.js" type="text/javascript"></script>
-
-  </head>
-  <body>
+{{set . "title" "Dibe Zackaria | Softwar Engineer | contact@zackdibe.com"}}
+{{template "header.html"}}
     <div id="doc2" class="yui-t7">
       <div id="inner">
 
@@ -47,9 +31,10 @@
 	      <div class="yui-gf">
 		<div class="yui-u">
 		  <p class="enlarge">
-		    Version française non disponible pour le moment
+		    Getting a makeover.
+		    Thanks for your patience.
 		  <p class="small">
-		    (Vous pouvez néanmoins retrouver mon profil LinkedIn <a href="https://www.linkedin.com/profile/view?id=311038500">ici</a>)
+		    (But you still can check my older self right <a href="outofdate.html">here</a>)
 		  </p>
 		  </p>
 		</div><!--// .yui-u -->
@@ -57,9 +42,7 @@
 
 	    </div><!--// .yui-b -->
 
-            <div id="ft" style="border-top: 0px;">
-              <p>Dibe Zackaria &mdash; <a href="mailto:contact@zackdibe.com">contact@zackdibe.com</a> &mdash; (+33 6 95 92 74 15)</p>
-            </div><!--// footer -->
+	    {{template "footer.html"}}
 
 	  </div><!-- // yui-main -->
 	</div><!-- // bd -->
@@ -68,3 +51,5 @@
     </div><!--// doc2 -->
   </body>
 </html>
+
+
