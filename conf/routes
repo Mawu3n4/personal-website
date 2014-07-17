@@ -5,6 +5,8 @@
 module:testrunner
 
 GET     /                                       App.Index
+GET	/outofdate				App.OutOfDate
+GET	/pdfdeadlink				App.PDFDeadlink
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
