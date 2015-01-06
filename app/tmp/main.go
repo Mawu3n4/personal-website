@@ -8,9 +8,9 @@ import (
 	controllers1 "github.com/revel/revel/modules/static/app/controllers"
 	_ "github.com/revel/revel/modules/testrunner/app"
 	controllers0 "github.com/revel/revel/modules/testrunner/app/controllers"
-	_ "personal-website/app"
-	controllers "personal-website/app/controllers"
-	tests "personal-website/tests"
+	_ "zackdibe.com/app"
+	controllers "zackdibe.com/app/controllers"
+	tests "zackdibe.com/tests"
 )
 
 var (

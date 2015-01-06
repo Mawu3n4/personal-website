@@ -73,5 +73,3 @@ func (_ tStatic) ServeModule(
 	revel.Unbind(args, "filepath", filepath)
 	return revel.MainRouter.Reverse("Static.ServeModule", args).Url
 }
-
-
