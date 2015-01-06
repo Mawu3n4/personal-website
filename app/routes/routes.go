@@ -15,6 +15,20 @@ func (_ tApp) Index(
 	return revel.MainRouter.Reverse("App.Index", args).Url
 }
 
+func (_ tApp) OutOfDate(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("App.OutOfDate", args).Url
+}
+
+func (_ tApp) PDFDeadlink(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("App.PDFDeadlink", args).Url
+}
+
 
 type tStatic struct {}
 var Static tStatic

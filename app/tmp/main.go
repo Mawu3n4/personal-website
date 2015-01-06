@@ -39,6 +39,24 @@ func main() {
 					},
 				},
 			},
+			&revel.MethodType{
+				Name: "OutOfDate",
+				Args: []*revel.MethodArg{ 
+				},
+				RenderArgNames: map[int][]string{ 
+					14: []string{ 
+					},
+				},
+			},
+			&revel.MethodType{
+				Name: "PDFDeadlink",
+				Args: []*revel.MethodArg{ 
+				},
+				RenderArgNames: map[int][]string{ 
+					18: []string{ 
+					},
+				},
+			},
 			
 		})
 	

@@ -9,3 +9,11 @@ type App struct {
 func (c App) Index() revel.Result {
 	return c.Render()
 }
+
+func (c App) OutOfDate() revel.Result {
+	return c.Render()
+}
+
+func (c App) PDFDeadlink() revel.Result {
+	return c.Render()
+}
