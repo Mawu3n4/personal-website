@@ -1,47 +1,20 @@
 {{set . "title" "Dibe Zackaria | Softwar Engineer | contact@zackdibe.com"}}
 {{template "header.html"}}
 
-    <div id="doc2" class="yui-t7">
-      <div id="inner">
+<div id="bd">
+  <div id="yui-main">
+    <div class="yui-b">
 
-	<div id="hd">
-	  <div class="yui-gc">
-	    <div class="yui-u first">
-	      <h1><a href="index.html" class="nodeco">Dibe Zackaria</a></h1>
-	      <h2>auto-entrepreneur,</h2>
-	      <h2>software engineer</h2>
-	    </div>
+      {{template "partials/profile.html"}}
+      {{template "partials/cv.html"}}
+      {{template "partials/knowledges.html"}}
+      {{template "partials/education.html"}}
+      {{template "partials/lang.html"}}
+      {{template "partials/interests.html"}}
+      {{template "partials/work.html"}}
 
-	    <div class="yui-u">
-	      <div class="contact-info">
-		<h3><a id="pdf" href="public/files/DibeZackaria-CV-EN.pdf">Download as PDF</a></h3>
-		<h3><a href="mailto:contact@zackdibe.com">contact@zackdibe.com</a></h3>
-		<h3>(+447 780 053 160)</h3>
-	      </div><!--// .contact-info -->
-	    </div>
-	  </div><!--// .yui-gc -->
-	</div><!--// hd -->
+    </div><!--// .yui-b -->
+  </div><!--// yui-main -->
+</div><!--// bd -->
 
-	
-	<div id="bd">
-	  <div id="yui-main">
-	    <div class="yui-b">
-
-	      {{template "partials/profile.html"}}
-	      {{template "partials/knowledges.html"}}
-	      {{template "partials/cv.html"}}
-	      {{template "partials/education.html"}}
-	      {{template "partials/lang.html"}}
-	      {{template "partials/interests.html"}}
-	      {{template "partials/work.html"}}
-
-	    </div><!--// .yui-b -->
-	  </div><!--// yui-main -->
-	</div><!--// bd -->
-
-	{{template "footer.html"}}
-
-      </div><!-- // inner -->
-    </div><!-- // doc -->
-  </body>
-</html>
+{{template "footer.html"}}
